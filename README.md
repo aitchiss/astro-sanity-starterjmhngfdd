@@ -1,4 +1,4 @@
-# Astro Netlify Sanity Starter
+# Astro Netlify Sanity Starterfffff
 
 ![Astro Netlify Sanity Starter](https://assets.stackbit.com/docs/astro-sanity-starter-thumb.jpg)
 
