@@ -11,6 +11,7 @@ const { title, logo, navLinks, 'data-sb-field-path': fieldPath } = Astro.props;
 ---
 
 <nav class="p-4 sm:p-5" data-sb-field-path={fieldPath}>
+<h1> env var: {process.env.MY_ENV_VAR_TEST}</h1>
     <div class="flex items-center justify-between w-full gap-6 mx-auto max-w-7xl">
         {
             logo.src ? (
