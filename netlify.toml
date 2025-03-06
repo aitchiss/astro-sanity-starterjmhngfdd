@@ -1,2 +1,8 @@
 [dev]
   targetPort = 3000
+
+[context.branch-deploy.environment]
+  MY_ENV_VAR_TEST = "general"
+
+[context."feat/*".environment]
+  MY_ENV_VAR_TEST = "prefix-match"
