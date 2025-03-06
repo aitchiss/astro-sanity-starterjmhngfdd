@@ -4,5 +4,5 @@
 [context.branch-deploy.environment]
   MY_ENV_VAR_TEST = "general"
 
-[context."feat/*".environment]
+[context."release/*".environment]
   MY_ENV_VAR_TEST = "prefix-match"
